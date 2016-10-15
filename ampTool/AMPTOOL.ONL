@@ -1,0 +1,693 @@
+(PCB AMPTOOL
+ (description
+  (timeStamp "2015 11 23 11 54 13")
+  (program "CAPTURE.EXE" (Version "16.5.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Monday, November 23, 2015")
+  (document "D:\\PRO\\MR.JOSHUA\\AMPCHANGE\\SCHEMATIC\\AMPTOOL\\AMPTOOL.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component CON3
+   (place J18
+    (property 
+     ("PCB Footprint" CON3_2.54mm)
+     (timestamp 000032DB)
+     ("Source Package" CON3)
+     (Value CON3))))
+  (component CON4
+   (place J10
+    (property 
+     ("PCB Footprint" CON4_2.54mm)
+     (timestamp 000022CB)
+     ("Source Package" CON4)
+     (Value CON4))))
+  (component MAX4624EZA
+   (place U79
+    (property 
+     ("PCB Footprint" SOT23_6)
+     (timestamp 00000D2F)
+     ("Source Package" MAX4624EZA)
+     (Value MAX4624EUT)))
+   (place U80
+    (property 
+     ("PCB Footprint" SOT23_6)
+     (timestamp 00001228)
+     ("Source Package" MAX4624EZA)
+     (Value MAX4624EUT)))
+   (place U81
+    (property 
+     ("PCB Footprint" SOT23_6)
+     (timestamp 000012FC)
+     ("Source Package" MAX4624EZA)
+     (Value MAX4624EUT)))
+   (place U82
+    (property 
+     ("PCB Footprint" SOT23_6)
+     (timestamp 000013D7)
+     ("Source Package" MAX4624EZA)
+     (Value MAX4624EUT))))
+  (component CAP_E
+   (place C217
+    (property 
+     ("PCB Footprint" TAB)
+     (timestamp 000008D5)
+     ("Source Package" CAP_E)
+     (Value 10uF)))
+   (place C220
+    (property 
+     ("PCB Footprint" TAB)
+     (timestamp 00002C86)
+     ("Source Package" CAP_E)
+     (Value 10uF)))
+   (place C222
+    (property 
+     ("PCB Footprint" TAB)
+     (timestamp 00002D34)
+     ("Source Package" CAP_E)
+     (Value 10uF)))
+   (place C224
+    (property 
+     ("PCB Footprint" TAB)
+     (timestamp 00002DE6)
+     ("Source Package" CAP_E)
+     (Value 10uF)))
+   (place C226
+    (property 
+     ("PCB Footprint" TAB)
+     (timestamp 00002E9C)
+     ("Source Package" CAP_E)
+     (Value 10uF))))
+  (component CON8
+   (place J11
+    (property 
+     ("PCB Footprint" CON8_2.54mm)
+     (timestamp 000022FC)
+     ("Source Package" CON8)
+     (Value CON8)))
+   (place J12
+    (property 
+     ("PCB Footprint" CON8_2.54mm)
+     (timestamp 00002435)
+     ("Source Package" CON8)
+     (Value CON8)))
+   (place J13
+    (property 
+     ("PCB Footprint" CON8_2.54mm)
+     (timestamp 00002467)
+     ("Source Package" CON8)
+     (Value CON8)))
+   (place J15
+    (property 
+     ("PCB Footprint" CON8_2.54mm)
+     (timestamp 00002644)
+     ("Source Package" CON8)
+     (Value CON8)))
+   (place J16
+    (property 
+     ("PCB Footprint" CON8_2.54mm)
+     (timestamp 00002676)
+     ("Source Package" CON8)
+     (Value CON8)))
+   (place J17
+    (property 
+     ("PCB Footprint" CON8_2.54mm)
+     (timestamp 000026A8)
+     ("Source Package" CON8)
+     (Value CON8))))
+  (component TESTPOINT
+   (place TP1
+    (property 
+     ("PCB Footprint" TESTPOINT_2.54)
+     (timestamp 00003183)
+     ("Source Package" TESTPOINT)
+     (Value TESTPOINT)))
+   (place TP2
+    (property 
+     ("PCB Footprint" TESTPOINT_2.54)
+     (timestamp 000031CA)
+     ("Source Package" TESTPOINT)
+     (Value TESTPOINT)))
+   (place TP3
+    (property 
+     ("PCB Footprint" TESTPOINT_2.54)
+     (timestamp 000031E4)
+     ("Source Package" TESTPOINT)
+     (Value TESTPOINT))))
+  (component CAP
+   (place C218
+    (property 
+     ("PCB Footprint" C0603M)
+     (timestamp 000008B1)
+     ("Source Package" CAP)
+     (Value 104)))
+   (place C219
+    (property 
+     ("PCB Footprint" C0603M)
+     (timestamp 00002C62)
+     ("Source Package" CAP)
+     (Value 104)))
+   (place C221
+    (property 
+     ("PCB Footprint" C0603M)
+     (timestamp 00002D10)
+     ("Source Package" CAP)
+     (Value 104)))
+   (place C223
+    (property 
+     ("PCB Footprint" C0603M)
+     (timestamp 00002DC2)
+     ("Source Package" CAP)
+     (Value 104)))
+   (place C225
+    (property 
+     ("PCB Footprint" C0603M)
+     (timestamp 00002E78)
+     ("Source Package" CAP)
+     (Value 104))))
+  (component FTE50
+   (place J3
+    (property 
+     ("PCB Footprint" FTE50)
+     (timestamp 0000070C)
+     ("Source Package" FTE50)
+     (Value "CLE-125-01-G-DV-A")))
+   (place J5
+    (property 
+     ("PCB Footprint" FTE50)
+     (timestamp 0000029C)
+     ("Source Package" FTE50)
+     (Value "CLE-125-01-G-DV-A")))))
+ (library
+  (image MAX4624EZA
+   (property 
+    (sourcelib D:\\HOLTER3\\HOLTER3.OLB))
+   (pin 999 1
+    (property 
+     (pinname IN)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname V+)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname COM)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname NO)
+     (pintype 4))))
+  (image CAP_E
+   (property 
+    (sourcelib D:\\LINUX_WORK\\LIB\\MINE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CAP
+   (property 
+    (sourcelib D:\\LINUX_WORK\\LIB\\MINE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image TESTPOINT
+   (property 
+    (sourcelib D:\\PRO\\LIBRARY\\LIB\\MINE.OLB))
+   (pin 999 1
+    (property 
+     (pinname TP)
+     (pintype 4))))
+  (image CON4
+   (property 
+    (sourcelib D:\\PRO\\LIBRARY\\LIB\\BLUETOOTH.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image CON8
+   (property 
+    (sourcelib D:\\PRO\\LIBRARY\\LIB\\NEW_LIB.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4))))
+  (image CON3
+   (property 
+    (sourcelib D:\\PRO\\LIBRARY\\LIB\\NEW_LIB.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image FTE50
+   (property 
+    (sourcelib D:\\LINUX_WORK\\LIB\\HOLTER3.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname 21)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname 22)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname 23)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname 24)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname 25)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname 26)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname 27)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname 28)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname 29)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname 30)
+     (pintype 4)))
+   (pin 999 31
+    (property 
+     (pinname 31)
+     (pintype 4)))
+   (pin 999 32
+    (property 
+     (pinname 32)
+     (pintype 4)))
+   (pin 999 33
+    (property 
+     (pinname 33)
+     (pintype 4)))
+   (pin 999 34
+    (property 
+     (pinname 34)
+     (pintype 4)))
+   (pin 999 35
+    (property 
+     (pinname 35)
+     (pintype 4)))
+   (pin 999 36
+    (property 
+     (pinname 36)
+     (pintype 4)))
+   (pin 999 37
+    (property 
+     (pinname 37)
+     (pintype 4)))
+   (pin 999 38
+    (property 
+     (pinname 38)
+     (pintype 4)))
+   (pin 999 39
+    (property 
+     (pinname 39)
+     (pintype 4)))
+   (pin 999 40
+    (property 
+     (pinname 40)
+     (pintype 4)))
+   (pin 999 41
+    (property 
+     (pinname 41)
+     (pintype 4)))
+   (pin 999 42
+    (property 
+     (pinname 42)
+     (pintype 4)))
+   (pin 999 43
+    (property 
+     (pinname 43)
+     (pintype 4)))
+   (pin 999 44
+    (property 
+     (pinname 44)
+     (pintype 4)))
+   (pin 999 45
+    (property 
+     (pinname 45)
+     (pintype 4)))
+   (pin 999 46
+    (property 
+     (pinname 46)
+     (pintype 4)))
+   (pin 999 47
+    (property 
+     (pinname 47)
+     (pintype 4)))
+   (pin 999 48
+    (property 
+     (pinname 48)
+     (pintype 4)))
+   (pin 999 49
+    (property 
+     (pinname 49)
+     (pintype 4)))
+   (pin 999 50
+    (property 
+     (pinname 50)
+     (pintype 4)))
+   (pin 999 51
+    (property 
+     (pinname M)
+     (pintype 4)))
+   (pin 999 52
+    (property 
+     (pinname M)
+     (pintype 4)))))
+ (network
+  (net AD_CH0
+   (pins
+     U79-5 J10-1))
+  (net AD_CH1
+   (pins
+     U80-5 J10-2))
+  (net AD_CH2
+   (pins
+     U81-5 J10-3))
+  (net AD_CH3
+   (pins
+     U82-5 J10-4))
+  (net AD_SW
+   (pins
+     U79-1 U80-1 U81-1 U82-1 TP3-1))
+  (net AGND
+    (property 
+     (nettype S))
+   (pins
+     J3-3 J3-4 J3-11 J3-12 C217-2 C218-2 U79-3 U80-3 U81-3
+     U82-3 J15-2 J15-6 C219-2 C220-2 C222-2 C221-2 C224-2 C223-2
+     C225-2 C226-2 J18-2 J18-3))
+  (net AOUT_01
+   (pins
+     J3-49 J3-50 U79-6 TP2-1))
+  (net AOUT_02
+   (pins
+     J3-45 J3-46 U80-6 J17-7))
+  (net AOUT_03
+   (pins
+     J3-41 J3-42 U81-6 J17-5))
+  (net AOUT_04
+   (pins
+     J3-37 J3-38 U82-6 J17-3))
+  (net AOUT_05
+   (pins
+     J3-33 J3-34 J17-1))
+  (net AOUT_06
+   (pins
+     J3-29 J3-30 J16-7))
+  (net AOUT_07
+   (pins
+     J3-25 J3-26 J16-5))
+  (net AOUT_08
+   (pins
+     J3-21 J3-22 J16-3))
+  (net AOUT_09
+   (pins
+     J3-19 J3-20 J16-2))
+  (net AOUT_10
+   (pins
+     J3-17 J3-18 J16-1))
+  (net AOUT_11
+   (pins
+     J3-15 J3-16 J15-8))
+  (net AOUT_12
+   (pins
+     J3-13 J3-14 J15-7))
+  (net AOUT_13
+   (pins
+     J3-47 J3-48 U79-4 J17-8))
+  (net AOUT_14
+   (pins
+     J3-43 J3-44 U80-4 J17-6))
+  (net AOUT_15
+   (pins
+     J3-39 J3-40 U81-4 J17-4))
+  (net AOUT_16
+   (pins
+     J3-35 J3-36 U82-4 J17-2))
+  (net AOUT_17
+   (pins
+     J3-31 J3-32 J16-8))
+  (net AOUT_18
+   (pins
+     J3-27 J3-28 J16-6))
+  (net AOUT_19
+   (pins
+     J3-23 J3-24 J16-4))
+  (net AVCC
+    (property 
+     (nettype S))
+   (pins
+     J3-1 J3-2 C217-1 C218-1 U79-2 U80-2 U81-2 U82-2 J15-1
+     C219-1 C220-1 C222-1 C221-1 C224-1 C223-1 C225-1 C226-1 J18-1))
+  (net CH17+
+   (pins
+     J5-39 J5-40 J13-4))
+  (net CH18+
+   (pins
+     J5-41 J5-42 J13-5))
+  (net CH19+
+   (pins
+     J5-43 J5-44 J13-6))
+  (net EEG_A1
+   (pins
+     J5-45 J5-46 J13-7))
+  (net EEG_A2
+   (pins
+     J5-47 J5-48 J13-8))
+  (net EEG_C3
+   (pins
+     J5-11 J5-12 J11-6))
+  (net EEG_C4
+   (pins
+     J5-13 J5-14 J11-7))
+  (net EEG_F3
+   (pins
+     J5-7 J5-8 J11-4))
+  (net EEG_F4
+   (pins
+     J5-9 J5-10 J11-5))
+  (net EEG_F7
+   (pins
+     J5-25 J5-26 J12-5))
+  (net EEG_F8
+   (pins
+     J5-27 J5-28 J12-6))
+  (net EEG_FP1
+   (pins
+     J5-3 J5-4 J11-2))
+  (net EEG_FP2
+   (pins
+     J5-5 J5-6 J11-3))
+  (net EEG_O1
+   (pins
+     J5-21 J5-22 J12-3))
+  (net EEG_O2
+   (pins
+     J5-23 J5-24 J12-4))
+  (net EEG_P3
+   (pins
+     J5-15 J5-16 J11-8))
+  (net EEG_P4
+   (pins
+     J5-19 J5-20 J12-2))
+  (net EEG_T3
+   (pins
+     J5-29 J5-30 J12-7))
+  (net EEG_T4
+   (pins
+     J5-31 J5-32 J12-8))
+  (net EEG_T5
+   (pins
+     J5-35 J5-36 J13-2))
+  (net EEG_T6
+   (pins
+     J5-37 J5-38 J13-3))
+  (net GND_SIGNAL
+    (property 
+     (nettype S))
+   (pins
+     J5-1 J5-2 J5-17 J5-18 J5-33 J5-34 J5-49 J5-50 J11-1
+     J12-1 J13-1))
+  (net R_SIGNAL_IN
+   (pins
+     J3-5 J3-6 J15-3))
+  (net SW_A
+   (pins
+     J3-9 J3-10 J15-5))
+  (net SW_B
+   (pins
+     J3-8 TP1-1))
+  (net SW_C
+   (pins
+     J3-7 J15-4)))
+)

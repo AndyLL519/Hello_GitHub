@@ -1,0 +1,127 @@
+(ExpressProject "ampTool"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "d:\pro\library\lib\bluetooth.olb"
+        (Type "Schematic Library"))
+      (File "d:\pro\library\lib\eeg2008.olb"
+        (Type "Schematic Library"))
+      (File "d:\pro\library\lib\holter3.olb"
+        (Type "Schematic Library"))
+      (File "d:\pro\library\lib\mine.olb"
+        (Type "Schematic Library"))
+      (File "d:\pro\library\lib\new_lib.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\amptool.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File "D:\PRO\MR.JOSHUA\AMPCHANGE\SCHEMATIC\AMPTOOL\AMPTOOL.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "AMPTOOL.KYN")
+    (OTHER_Netlist_File2 "AMPTOOL.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orIntergra.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\amptool.drc"
+      (Type "Report"))
+    (File ".\amptool.kyn"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\NEW_LIB.OLB")
+      (DeviceIndex "0"))
+    (TERMINAL
+      (FullPartName "TERMINAL.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\HOLTER3.OLB")
+      (DeviceIndex "0"))
+    (TESTPOINT
+      (FullPartName "TESTPOINT.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\MINE.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\BLUETOOTH.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\NEW_LIB.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\BLUETOOTH.OLB")
+      (DeviceIndex "0"))
+    (CON24
+      (FullPartName "CON24.Normal")
+      (LibraryName "D:\PRO\LIBRARY\LIB\NEW_LIB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\amptool.dsn")
+      (Path "Design Resources" ".\amptool.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources" ".\amptool.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 327"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1121 52 418")
+        (Scroll "-207 -1")
+        (Zoom "53")
+        (Occurrence "/"))
+      (Path "D:\PRO\MR.JOSHUA\AMPCHANGE\SCHEMATIC\AMPTOOL\AMPTOOL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))
